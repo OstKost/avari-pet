@@ -1,0 +1,34 @@
+{
+  "name": "avari-pet",
+  "version": "2.0.0",
+  "description": "Avari — magical white elf desktop assistant pet for Codex Pet v2",
+  "main": "bin/install-cli.js",
+  "bin": {
+    "avari-pet": "./bin/install-cli.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "python3 scripts/build_dist.py",
+    "package": "./scripts/package_release.sh",
+    "install-local": "node bin/install-cli.js",
+    "test-install": "node bin/install-cli.js --target /tmp/test-codex/pets/avari"
+  },
+  "keywords": [
+    "codex-pet",
+    "chatgpt-pet",
+    "desktop-pet",
+    "pixel-pet",
+    "avari"
+  ],
+  "author": "OstKost",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OstKost/avari-pet.git"
+  }
+}

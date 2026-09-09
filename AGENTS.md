@@ -86,18 +86,20 @@ Every agent must respect these non-negotiable standards:
 avari-pet/
 ├── DESIGN.md              # Canonical visual specification (read-only reference)
 ├── actions.md             # Motion & state definitions (read-only reference)
-├── plan_260909_full.md    # Active release checklist & punch list
-├── progress.md            # High-level tracking status
-├── images.md              # Image generation audit log
-├── run/                   # BASELINE RUN (READ-ONLY ARCHIVE — DO NOT OVERWRITE)
-└── run_260909/            # ACTIVE RUN DIRECTORY (perform all current operations here)
-    ├── decoded/           # Despilled/extracted strip assets
-    ├── final/             # Final assembled spritesheet & validation JSONs
-    ├── frames/            # Extracted individual frame directories per row
-    ├── prompts/           # Row-specific prompt definitions
-    ├── qa/                # QA review sheets, contact sheets, blind QA verdicts
-    └── references/        # Layout guides and canonical base references
+├── LICENSE                # MIT License
+├── README.md              # Public documentation & installation guide
+├── package.json           # NPM / NPX package definition
+├── install.sh             # macOS / Linux installer
+├── install.ps1            # Windows PowerShell installer
+├── bin/                   # NPX executable (install-cli.js)
+├── dist/                  # Clean release bundle (pet.json, spritesheet.webp)
+├── scripts/               # Build & release scripts
+├── _dev/                  # Internal development assets, concepts, reviews, and logs
+└── _runs/                 # Pipeline runs archive
+    ├── run/               # BASELINE RUN (READ-ONLY ARCHIVE)
+    └── run_260909/        # RELEASE RUN DIRECTORY (final assets & validation JSONs)
 ```
+
 
 ---
 
