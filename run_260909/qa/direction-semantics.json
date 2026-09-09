@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "character": "avari",
+  "atlas_version": 2,
+  "look_direction_count": 16,
+  "neutral_frame": {
+    "row": 0,
+    "col": 6,
+    "state": "idle_neutral"
+  },
+  "directions": [
+    {
+      "degrees": 0.0,
+      "rowIndex": 9,
+      "columnIndex": 0,
+      "cardinal": true,
+      "vertical": "up",
+      "horizontal": "center",
+      "gaze": "upward",
+      "description": "Gaze and face angled upward, hair resting naturally"
+    },
+    {
+      "degrees": 22.5,
+      "rowIndex": 9,
+      "columnIndex": 1,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-right",
+      "gaze": "up-right",
+      "description": "Slight turn up and right"
+    },
+    {
+      "degrees": 45.0,
+      "rowIndex": 9,
+      "columnIndex": 2,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-right",
+      "gaze": "up-right-diagonal",
+      "description": "Up-right diagonal gaze"
+    },
+    {
+      "degrees": 67.5,
+      "rowIndex": 9,
+      "columnIndex": 3,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-right",
+      "gaze": "right-upward",
+      "description": "Strong right turn with slight upward pitch"
+    },
+    {
+      "degrees": 90.0,
+      "rowIndex": 9,
+      "columnIndex": 4,
+      "cardinal": true,
+      "vertical": "level",
+      "horizontal": "screen-right",
+      "gaze": "right",
+      "description": "Cardinal right profile gaze"
+    },
+    {
+      "degrees": 112.5,
+      "rowIndex": 9,
+      "columnIndex": 5,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-right",
+      "gaze": "right-downward",
+      "description": "Strong right turn with downward pitch"
+    },
+    {
+      "degrees": 135.0,
+      "rowIndex": 9,
+      "columnIndex": 6,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-right",
+      "gaze": "down-right-diagonal",
+      "description": "Down-right diagonal gaze"
+    },
+    {
+      "degrees": 157.5,
+      "rowIndex": 9,
+      "columnIndex": 7,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-right",
+      "gaze": "down-right",
+      "description": "Slight right turn with downward pitch"
+    },
+    {
+      "degrees": 180.0,
+      "rowIndex": 10,
+      "columnIndex": 0,
+      "cardinal": true,
+      "vertical": "down",
+      "horizontal": "center",
+      "gaze": "downward",
+      "description": "Cardinal straight downward gaze"
+    },
+    {
+      "degrees": 202.5,
+      "rowIndex": 10,
+      "columnIndex": 1,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-left",
+      "gaze": "down-left",
+      "description": "Slight left turn with downward pitch"
+    },
+    {
+      "degrees": 225.0,
+      "rowIndex": 10,
+      "columnIndex": 2,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-left",
+      "gaze": "down-left-diagonal",
+      "description": "Down-left diagonal gaze"
+    },
+    {
+      "degrees": 247.5,
+      "rowIndex": 10,
+      "columnIndex": 3,
+      "cardinal": false,
+      "vertical": "down",
+      "horizontal": "screen-left",
+      "gaze": "left-downward",
+      "description": "Strong left turn with downward pitch"
+    },
+    {
+      "degrees": 270.0,
+      "rowIndex": 10,
+      "columnIndex": 4,
+      "cardinal": true,
+      "vertical": "level",
+      "horizontal": "screen-left",
+      "gaze": "left",
+      "description": "Cardinal left profile gaze"
+    },
+    {
+      "degrees": 292.5,
+      "rowIndex": 10,
+      "columnIndex": 5,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-left",
+      "gaze": "left-upward",
+      "description": "Strong left turn with upward pitch"
+    },
+    {
+      "degrees": 315.0,
+      "rowIndex": 10,
+      "columnIndex": 6,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-left",
+      "gaze": "up-left-diagonal",
+      "description": "Up-left diagonal gaze"
+    },
+    {
+      "degrees": 337.5,
+      "rowIndex": 10,
+      "columnIndex": 7,
+      "cardinal": false,
+      "vertical": "up",
+      "horizontal": "screen-left",
+      "gaze": "up-left",
+      "description": "Slight left turn with upward pitch"
+    }
+  ]
+}
