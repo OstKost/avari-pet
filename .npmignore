@@ -1,0 +1,5 @@
+# Ignore zip and dev files in npm package
+dist/*.zip
+_dev/
+_runs/
+scripts/

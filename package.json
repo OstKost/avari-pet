@@ -8,7 +8,8 @@
   },
   "files": [
     "bin",
-    "dist",
+    "dist/pet.json",
+    "dist/spritesheet.webp",
     "README.md",
     "LICENSE"
   ],
