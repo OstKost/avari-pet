@@ -1,0 +1,75 @@
+{
+  "pet_id": "avari",
+  "display_name": "Авари",
+  "spec_version": 2,
+  "status": "complete",
+  "timestamp": "2026-09-08T21:09:40.272496+00:00",
+  "atlas": {
+    "dimensions": [
+      1536,
+      2288
+    ],
+    "columns": 8,
+    "rows": 11,
+    "cell_size": [
+      192,
+      208
+    ],
+    "spritesheet_png": "run/final/spritesheet-extended.png",
+    "spritesheet_webp": "run/final/spritesheet-extended.webp",
+    "manifest": "run/final/spritesheet-extended.json",
+    "validation": "run/final/validation-extended.json"
+  },
+  "states_summary": {
+    "row_0_idle": {
+      "frames": 6,
+      "status": "complete"
+    },
+    "row_1_running_right": {
+      "frames": 8,
+      "status": "complete"
+    },
+    "row_2_running_left": {
+      "frames": 8,
+      "status": "complete"
+    },
+    "row_3_waving": {
+      "frames": 4,
+      "status": "complete"
+    },
+    "row_4_jumping": {
+      "frames": 5,
+      "status": "complete"
+    },
+    "row_5_failed": {
+      "frames": 8,
+      "status": "complete"
+    },
+    "row_6_waiting": {
+      "frames": 6,
+      "status": "complete"
+    },
+    "row_7_running": {
+      "frames": 6,
+      "status": "complete (coding)"
+    },
+    "row_8_review": {
+      "frames": 6,
+      "status": "complete"
+    },
+    "row_9_look_right_hemisphere": {
+      "directions": 8,
+      "status": "complete (000°..157.5°)"
+    },
+    "row_10_look_left_hemisphere": {
+      "directions": 8,
+      "status": "complete (180°..337.5°)"
+    }
+  },
+  "qa": {
+    "asset_fit": "PASS",
+    "chroma_despill": "PASS",
+    "atlas_validation_v2": "PASS",
+    "blind_direction_qa": "PASS"
+  }
+}

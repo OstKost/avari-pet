@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "/Volumes/KingstonM2/Projects/avari-pet/run_260909/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        400,
+        893
+      ],
+      "used_pixels": 134919,
+      "edge_pixels": 0,
+      "output": "/Volumes/KingstonM2/Projects/avari-pet/run_260909/decoded/look-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        400,
+        0,
+        800,
+        893
+      ],
+      "used_pixels": 129831,
+      "edge_pixels": 0,
+      "output": "/Volumes/KingstonM2/Projects/avari-pet/run_260909/decoded/look-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        800,
+        0,
+        1200,
+        893
+      ],
+      "used_pixels": 134454,
+      "edge_pixels": 0,
+      "output": "/Volumes/KingstonM2/Projects/avari-pet/run_260909/decoded/look-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1200,
+        0,
+        1600,
+        893
+      ],
+      "used_pixels": 128837,
+      "edge_pixels": 0,
+      "output": "/Volumes/KingstonM2/Projects/avari-pet/run_260909/decoded/look-anchors/270.png"
+    }
+  ]
+}

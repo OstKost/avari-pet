@@ -1,0 +1,324 @@
+{
+  "schema_version": 3,
+  "meta": {
+    "created_at": "2026-09-08T13:47:57+00:00",
+    "updated_at": "2026-09-08T13:47:57+00:00",
+    "language": "ru",
+    "language_name": "Русский",
+    "fallback_language": "en",
+    "target": "official-codex-pet",
+    "user_intro_seen": false
+  },
+  "environment": {
+    "hatch_pet_path": "/Applications/ChatGPT.app/Contents/Resources/skills/skills/.curated/hatch-pet",
+    "notes": "Bundled hatch-pet requires v2 8x11. Director v1 atlas rules are outdated; retain its design and preview workflow, use bundled hatch-pet for eventual production. Installation needs filesystem approval."
+  },
+  "identity": {
+    "name": "Авари",
+    "concept": "Белая эльфийка Avari Keys, выполняющая код как магию",
+    "reference_images": [
+      "/Volumes/KingstonM2/Projects/avari-pet/concept-blue-eyes.png"
+    ],
+    "reference_likeness": "Утверждённая внешность, максимально точно"
+  },
+  "likeness": {
+    "strategy": "maximum-within-official-limits",
+    "user_requested_level": "as-close-as-possible-within-official-limits",
+    "must_preserve": [],
+    "may_simplify": [],
+    "must_avoid_drift": [],
+    "notes": ""
+  },
+  "reference_research": {
+    "enabled": false,
+    "query": "",
+    "entity_type": "",
+    "chosen_version": "",
+    "sources_summary": [],
+    "source_links": [],
+    "visual_traits": [],
+    "desktop_pet_traits": [],
+    "must_keep": [],
+    "avoid_confusion": [],
+    "user_confirmed": false
+  },
+  "form": {
+    "type": "full-body",
+    "notes": "Элегантный рисованный персонаж с компактными пропорциями"
+  },
+  "style": {
+    "selected": [
+      "painterly"
+    ],
+    "avoid_styles": [],
+    "notes": "Сохранить утверждённый рисунок; упростить только слишком мелкую вышивку"
+  },
+  "personality": {
+    "traits": [
+      "спокойная",
+      "внимательная",
+      "доброжелательная"
+    ],
+    "role": "эльфийская помощница",
+    "reaction_intensity": "сдержанная"
+  },
+  "appearance": {
+    "main_colors": [
+      "#06141B",
+      "#0A1D26",
+      "#102833",
+      "#F2F0E8",
+      "#D9B96E",
+      "#123B80"
+    ],
+    "must_have": [
+      "белые длинные волосы",
+      "глубокие синие глаза",
+      "заострённые уши",
+      "тёмный плащ",
+      "магическая печать кода в ладонях"
+    ],
+    "avoid": [],
+    "visual_locks": [
+      "лицо и одежда утверждены пользователем",
+      "синие глаза утверждены пользователем"
+    ]
+  },
+  "usage": {
+    "main_scenario": "",
+    "desktop_feeling": ""
+  },
+  "confirmations": {
+    "direction_choice": "",
+    "concept_confirmation": "Пользователь: «Внешность утверждаю. С синими глазами отлично. Продолжай.»",
+    "formal_character_image": "/Volumes/KingstonM2/Projects/avari-pet/concept-blue-eyes.png",
+    "production_base": "/Volumes/KingstonM2/Projects/avari-pet/production-base-orb-final.png",
+    "production_base_preview": "/Volumes/KingstonM2/Projects/avari-pet/asset-fit-review-orb-final/cell-preview.png",
+    "production_base_report": "/Volumes/KingstonM2/Projects/avari-pet/asset-fit-review-orb-final/asset_fit.json",
+    "production_base_user_confirmed": true,
+    "production_base_fit": {
+      "status": "pass",
+      "checked_at": "2026-09-08T18:59:43+00:00",
+      "tool": "check_pet_asset_fit.py",
+      "notes": ["Чистая прозрачность, безопасные поля и 96 палитровых групп. Печать заменена на утверждённый шар с символами {<>} внутри."],
+      "failures": [],
+      "warnings": ["Исходное разрешение велико, но упрощённая основа прошла проверку."]
+    },
+    "canonical_base": "",
+    "key_action_preview": "",
+    "final_card_confirmed": true
+  },
+  "handoff": {
+    "manifest": "",
+    "run_dir": ""
+  },
+  "qa": {
+    "output_check": ""
+  },
+  "actions": {
+    "idle": {
+      "frames": 6,
+      "special_request": "",
+      "recommended": "Спокойно дышит и моргает; волосы слегка колышутся.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Спокойно дышит и моргает; волосы слегка колышутся.",
+      "beat_sheet": [
+        "нейтрально",
+        "вдох",
+        "веки прикрываются",
+        "моргание",
+        "выдох",
+        "исходная поза"
+      ],
+      "preview_required": true,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "running-right": {
+      "frames": 8,
+      "special_request": "",
+      "recommended": "Легко бежит вправо; волосы и плащ следуют за движением.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Легко бежит вправо; волосы и плащ следуют за движением.",
+      "beat_sheet": [
+        "правая стопа вперёд",
+        "опора справа",
+        "перенос веса",
+        "отрыв",
+        "левая стопа вперёд",
+        "опора слева",
+        "перенос веса",
+        "отрыв"
+      ],
+      "preview_required": true,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "running-left": {
+      "frames": 8,
+      "special_request": "",
+      "recommended": "Легко бежит влево; сохраняет одежду и печать кода.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Легко бежит влево; сохраняет одежду и печать кода.",
+      "beat_sheet": [
+        "левая стопа вперёд",
+        "опора слева",
+        "перенос веса",
+        "отрыв",
+        "правая стопа вперёд",
+        "опора справа",
+        "перенос веса",
+        "отрыв"
+      ],
+      "preview_required": false,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "waving": {
+      "frames": 4,
+      "special_request": "",
+      "recommended": "Приветствует мягким взмахом руки; другая рука держит печать.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Приветствует мягким взмахом руки; другая рука держит печать.",
+      "beat_sheet": [
+        "поднимает руку",
+        "ладонь наружу",
+        "короткий взмах",
+        "опускает руку"
+      ],
+      "preview_required": false,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "jumping": {
+      "frames": 5,
+      "special_request": "",
+      "recommended": "Короткий радостный прыжок с движением волос и плаща.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Короткий радостный прыжок с движением волос и плаща.",
+      "beat_sheet": [
+        "подготовка",
+        "отталкивание",
+        "вершина",
+        "приземление",
+        "выпрямляется"
+      ],
+      "preview_required": false,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "failed": {
+      "frames": 8,
+      "special_request": "",
+      "recommended": "Печать кода сжимается в ладонях; Авари озадачена и готовится повторить заклинание.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Печать кода сжимается в ладонях; Авари озадачена и готовится повторить заклинание.",
+      "beat_sheet": [
+        "замирает",
+        "смотрит на печать",
+        "хмурит брови",
+        "сводит ладони",
+        "печать сжата",
+        "короткая пауза",
+        "поднимает взгляд",
+        "собирается"
+      ],
+      "preview_required": true,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "waiting": {
+      "frames": 6,
+      "special_request": "",
+      "recommended": "Спокойно ждёт ответа: вопросительный наклон головы и открытая ладонь.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Спокойно ждёт ответа: вопросительный наклон головы и открытая ладонь.",
+      "beat_sheet": [
+        "смотрит на пользователя",
+        "наклон головы",
+        "открывает ладонь",
+        "ждёт",
+        "моргает",
+        "возвращается"
+      ],
+      "preview_required": false,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "running": {
+      "frames": 6,
+      "special_request": "",
+      "recommended": "Плетёт заклинание из кода: пальцы направляют связанную с ладонями золотую печать с голубыми гранями.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Плетёт заклинание из кода: пальцы направляют связанную с ладонями золотую печать с голубыми гранями.",
+      "beat_sheet": [
+        "сосредоточена",
+        "левая ладонь поворачивается",
+        "правая ладонь направляет",
+        "печать раскрывается",
+        "соединяет символы",
+        "завершает цикл"
+      ],
+      "preview_required": false,
+      "preview_confirmed": false,
+      "source": "mixed",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    },
+    "review": {
+      "frames": 6,
+      "special_request": "",
+      "recommended": "Внимательно проверяет магическую печать кода и слегка кивает.",
+      "options": [],
+      "user_choice": "",
+      "final_direction": "Внимательно проверяет магическую печать кода и слегка кивает.",
+      "beat_sheet": [
+        "наклоняется к печати",
+        "прищуривается",
+        "изучает слева",
+        "изучает справа",
+        "маленький кивок",
+        "снова сосредоточена"
+      ],
+      "preview_required": true,
+      "preview_confirmed": false,
+      "source": "recommended",
+      "user_answer": "",
+      "summary": "",
+      "prompt_notes": ""
+    }
+  },
+  "notes": [
+    "Formal appearance approved. Production-base small-size preview and action card not yet user-confirmed. Do not fabricate confirmation."
+  ]
+}

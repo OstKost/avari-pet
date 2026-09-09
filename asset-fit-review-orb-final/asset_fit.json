@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-08T18:59:43+00:00",
+  "tool": "check_pet_asset_fit.py",
+  "image": {
+    "path": "/Volumes/KingstonM2/Projects/avari-pet/production-base-orb-final.png",
+    "width": 1205,
+    "height": 1305,
+    "mode": "RGBA"
+  },
+  "target": {
+    "cell_width": 192,
+    "cell_height": 208,
+    "safe_margin_x": 18,
+    "safe_margin_y": 16
+  },
+  "background": {
+    "kind": "transparent",
+    "has_transparency": true,
+    "color": null,
+    "variance": 0.0,
+    "near_white_or_black": false
+  },
+  "sprite": {
+    "source_bbox": [
+      342,
+      157,
+      862,
+      1148
+    ],
+    "cell_bbox": [
+      54,
+      25,
+      137,
+      183
+    ],
+    "cell_bbox_width": 83,
+    "cell_bbox_height": 158,
+    "cell_coverage": 0.2229
+  },
+  "detail": {
+    "edge_density": 0.5786,
+    "palette_estimate": 96
+  },
+  "failures": [],
+  "warnings": [
+    "source image is large; this is acceptable only if the sprite is already simplified"
+  ],
+  "recommendations": [],
+  "artifacts": {
+    "asset_fit": "/Volumes/KingstonM2/Projects/avari-pet/asset-fit-review-orb-final/asset_fit.json",
+    "review": "/Volumes/KingstonM2/Projects/avari-pet/asset-fit-review-orb-final/review.md",
+    "cell_preview": "/Volumes/KingstonM2/Projects/avari-pet/asset-fit-review-orb-final/cell-preview.png"
+  }
+}

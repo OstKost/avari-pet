@@ -1,0 +1,46 @@
+{
+  "stage": "image-generation",
+  "status": "complete-with-review-warnings",
+  "accepted_standard_rows": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "regenerated_rows": [
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-row-9",
+    "look-row-10"
+  ],
+  "reused_rows": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "look-cardinals"
+  ],
+  "checks": {
+    "standard_component_qa": "pass",
+    "row_9_registration": "pass",
+    "row_10_registration": "pass",
+    "look_alpha_holes": "none",
+    "blind_cardinal_gates": "pass",
+    "blind_intermediate_axis_warnings": "accepted for labeled visual review in final QA"
+  },
+  "remaining_before_release": [
+    "final chroma despill",
+    "v2 atlas validation",
+    "final labeled direction semantics record",
+    "independent final visual QA",
+    "packaging and Codex Desktop smoke test"
+  ]
+}
