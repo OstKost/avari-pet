@@ -106,6 +106,9 @@ async function install() {
   console.log('   1. Restart or reload \x1b[36mChatGPT Desktop / Codex\x1b[0m.');
   console.log('   2. Select \x1b[35mAvari\x1b[0m in your pet selector.');
   console.log('   3. Enjoy coding with your magical white elf companion! 🪄✨\n');
+  console.log('☕ \x1b[33m\x1b[1mEnjoying Avari? Support the creator:\x1b[0m');
+  console.log('   🇷🇺 Boosty (РФ/СНГ):  \x1b[4mhttps://boosty.to/ostkost/purchase/4098348?ssource=DIRECT&share=subscription_link\x1b[0m');
+  console.log('   🌎 Buy Me a Coffee: \x1b[4mhttps://buymeacoffee.com/OstKost\x1b[0m\n');
 }
 
 install().catch((err) => {
