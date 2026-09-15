@@ -5,7 +5,7 @@ set -e
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST_DIR="$REPO_ROOT/dist"
 STAGE_DIR="/tmp/avari-release-stage"
-ZIP_NAME="avari-v2.0.1.zip"
+ZIP_NAME="avari-v2.1.0.zip"
 ZIP_PATH="$DIST_DIR/$ZIP_NAME"
 
 echo "📦 Packaging Avari v2 release archive..."

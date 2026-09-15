@@ -6,7 +6,7 @@
 
 ![Avari](_runs/run/decoded/base.png)
 
-A white-haired elf, **Avari Keys**, wearing a midnight teal-navy cloak with muted old-gold trim. She creates code as magic inside a glass sphere held in her hands.
+A white-haired elf, **Avari**, wearing a midnight teal-navy cloak with muted old-gold trim. She creates code as magic inside a glass sphere held in her hands.
 
 Avari is compatible with the **Codex Pet v2** standard (`spriteVersionNumber: 2`) for **ChatGPT Desktop / Codex Desktop**. It includes 9 base animations (rows 0–8), 16 look directions (rows 9–10), and a neutral cell.
 
@@ -42,7 +42,7 @@ irm https://raw.githubusercontent.com/OstKost/avari-pet/main/install.ps1 | iex
 
 ### 4. Manual installation (GitHub Releases ZIP)
 
-1. Download `avari-v2.0.1.zip` from the [Releases](https://github.com/OstKost/avari-pet/releases) page.
+1. Download `avari-v2.1.0.zip` from the [Releases](https://github.com/OstKost/avari-pet/releases) page.
 2. Extract the `avari/` folder to the Codex pets directory:
    - **macOS / Linux:** `~/.codex/pets/avari/`
    - **Windows:** `%USERPROFILE%\.codex\pets\avari\`
@@ -64,7 +64,7 @@ For developers and contributors:
 # Build a clean release distribution in dist/
 npm run build
 
-# Create avari-v2.0.1.zip for GitHub Releases
+# Create avari-v2.1.0.zip for GitHub Releases
 npm run package
 
 # Install locally for testing
@@ -109,7 +109,7 @@ npm run install-local
 1. **NPX:** `npx avari-pet` или `npx github:OstKost/avari-pet`
 2. **macOS / Linux:** `curl -fsSL https://raw.githubusercontent.com/OstKost/avari-pet/main/install.sh | bash`
 3. **Windows PowerShell:** `irm https://raw.githubusercontent.com/OstKost/avari-pet/main/install.ps1 | iex`
-4. **Вручную:** скачайте `avari-v2.0.1.zip` со страницы [Releases](https://github.com/OstKost/avari-pet/releases), распакуйте `avari/` в `~/.codex/pets/avari/` или `%USERPROFILE%\.codex\pets\avari\`, затем перезапустите ChatGPT / Codex Desktop.
+4. **Вручную:** скачайте `avari-v2.1.0.zip` со страницы [Releases](https://github.com/OstKost/avari-pet/releases), распакуйте `avari/` в `~/.codex/pets/avari/` или `%USERPROFILE%\.codex\pets\avari\`, затем перезапустите ChatGPT / Codex Desktop.
 
 ### 📁 Структура пакета
 
@@ -123,7 +123,7 @@ npm run install-local
 
 ```bash
 npm run build         # сборка чистого релизного дистрибутива в dist/
-npm run package       # создание avari-v2.0.1.zip для GitHub Releases
+npm run package       # создание avari-v2.1.0.zip для GitHub Releases
 npm run install-local # локальная установка для проверки
 ```
 

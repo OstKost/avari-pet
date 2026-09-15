@@ -1,6 +1,6 @@
 {
   "name": "avari-pet",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Avari — magical white elf desktop assistant pet for Codex Pet v2",
   "main": "bin/install-cli.js",
   "bin": {
